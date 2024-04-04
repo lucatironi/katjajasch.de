@@ -1,0 +1,13 @@
+# Site settings
+domain: katjajasch.de
+url: https://katjajasch.de
+
+title : Katja Jasch
+tagline: Kunst
+description: Kunst von Katja Jasch
+
+email:             info@katjajasch.de
+twitter_username:  twitter
+
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+theme: null
