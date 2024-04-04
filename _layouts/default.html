@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+{% include head.html %}
+  <body>
+{% include body_top.html %}
+    <div class="page">
+{% include header.html %}
+
+{{ content }}
+
+{% include footer.html %}
+    </div>
+    <script src="{{ "assets/js/core.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/script.js" | relative_url }}"></script>
+  </body>
+</html>
