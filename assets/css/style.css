@@ -4470,13 +4470,13 @@ textarea ~ .form-validation {
 	margin-top: 15px;
 }
 
-.desktop .product-media::before {
+.product-media::before {
 	opacity: 0;
 	transform: scale(0.5);
 	transition: .25s;
 }
 
-.desktop .product-media:hover::before {
+.product-media:hover::before {
 	opacity: 1;
 	transform: scale(1);
 }
